@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>ScreenSidekick</title>
+<meta name="viewport" content="width=1920, height=1080, user-scalable=no" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HOME / LIBRARY SCREEN ===================== -->
+  <section id="screen-home" class="screen active">
+    <header class="app-header">
+      <h1>ScreenSidekick</h1>
+      <p class="subtitle">Pick something to watch</p>
+    </header>
+    <div id="library-grid" class="grid"></div>
+  </section>
+
+  <!-- ===================== PLAYER SCREEN ===================== -->
+  <section id="screen-player" class="screen">
+    <div class="player-backdrop" id="player-backdrop"></div>
+    <video id="player-video" autoplay playsinline></video>
+    <div class="player-overlay">
+      <h2 id="player-title"></h2>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+      <p class="hint">Press <b>UP</b> or say "Hey Sidekick" to ask about this video</p>
+    </div>
+  </section>
+
+  <!-- ===================== SIDEKICK OVERLAY ===================== -->
+  <section id="screen-sidekick" class="screen sidekick-overlay">
+    <div class="sidekick-panel">
+      <div class="sidekick-header">
+        <span class="sidekick-badge">✦ Sidekick</span>
+        <span id="sidekick-video-title"></span>
+      </div>
+
+      <div id="sidekick-log" class="sidekick-log"></div>
+
+      <div id="sidekick-cards" class="sidekick-cards"></div>
+      <div id="sidekick-quiz" class="sidekick-quiz"></div>
+
+      <div class="sidekick-input-row">
+        <input id="sidekick-input" type="text" placeholder="Ask a question... (or try: quiz me)" />
+        <div class="suggestions">
+          <button class="suggestion-chip" data-q="Why can't this animal see me?">Why can't it see me?</button>
+          <button class="suggestion-chip" data-q="Show me other animals that use the same adaptation.">Show related</button>
+          <button class="suggestion-chip" data-q="Quiz me.">Quiz me</button>
+        </div>
+      </div>
+      <p class="hint">Press <b>BACK</b> to return to the video</p>
+    </div>
+  </section>
+
+  <div id="loading" class="loading hidden">Thinking…</div>
+
+  <script src="content.js"></script>
+  <script src="ai.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

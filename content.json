@@ -1,0 +1,68 @@
+{
+  "library": [
+    {
+      "id": "vid_001",
+      "title": "Masters of Camouflage",
+      "category": "Nature",
+      "durationSec": 180,
+      "video": "assets/video_001.mp4",
+      "thumbnail": "assets/thumb_camouflage.jpg",
+      "synopsis": "A look at animals that use color, pattern, and behavior to disappear from predators and prey alike.",
+      "topics": ["camouflage", "predator avoidance", "adaptation", "octopus", "chameleon", "stick insect"],
+      "facts": [
+        { "id": "f1", "text": "Octopuses change both color and skin texture in under a second using specialized cells called chromatophores." },
+        { "id": "f2", "text": "Stick insects don't just look like twigs — some sway gently to mimic branches moving in the wind." },
+        { "id": "f3", "text": "Chameleons primarily change color to communicate mood and temperature regulation, not just camouflage." }
+      ],
+      "relatedIds": ["vid_002", "vid_004"]
+    },
+    {
+      "id": "vid_002",
+      "title": "Deep Ocean Giants",
+      "category": "Nature",
+      "durationSec": 240,
+      "video": "assets/video_002.mp4",
+      "thumbnail": "assets/thumb_ocean.jpg",
+      "synopsis": "Exploring the largest creatures in the deep sea and how they survive crushing pressure and total darkness.",
+      "topics": ["deep sea", "bioluminescence", "pressure adaptation", "giant squid", "anglerfish"],
+      "facts": [
+        { "id": "f1", "text": "Anglerfish use a bioluminescent lure grown from a modified dorsal spine to attract prey in total darkness." },
+        { "id": "f2", "text": "Giant squid have the largest eyes in the animal kingdom, up to 27 cm across, to catch faint light." },
+        { "id": "f3", "text": "Many deep-sea animals have gelatinous, low-density bodies that resist being crushed by pressure." }
+      ],
+      "relatedIds": ["vid_001", "vid_003"]
+    },
+    {
+      "id": "vid_003",
+      "title": "The Solar System, Up Close",
+      "category": "Space",
+      "durationSec": 210,
+      "video": "assets/video_003.mp4",
+      "thumbnail": "assets/thumb_space.jpg",
+      "synopsis": "A tour of our solar system's planets and moons, and what makes each one distinct.",
+      "topics": ["planets", "moons", "gravity", "atmosphere", "rings", "Saturn", "Jupiter"],
+      "facts": [
+        { "id": "f1", "text": "Saturn's rings are made almost entirely of water ice, with particles ranging from dust to house-sized chunks." },
+        { "id": "f2", "text": "Jupiter's Great Red Spot is a storm that has been raging for at least 190 years." },
+        { "id": "f3", "text": "A day on Venus is longer than its year — it rotates once every 243 Earth days but orbits the Sun in 225." }
+      ],
+      "relatedIds": ["vid_002"]
+    },
+    {
+      "id": "vid_004",
+      "title": "Built to Survive: Desert Life",
+      "category": "Nature",
+      "durationSec": 195,
+      "video": "assets/video_004.mp4",
+      "thumbnail": "assets/thumb_desert.jpg",
+      "synopsis": "How animals and plants endure extreme heat and scarce water in the world's driest places.",
+      "topics": ["desert", "water conservation", "heat adaptation", "camel", "cactus", "fennec fox"],
+      "facts": [
+        { "id": "f1", "text": "A camel's hump stores fat, not water — the fat is metabolized to produce water when needed." },
+        { "id": "f2", "text": "Fennec foxes have oversized ears that radiate body heat, helping them stay cool without sweating much." },
+        { "id": "f3", "text": "Saguaro cacti can absorb and store over 200 liters of water after a single heavy rain." }
+      ],
+      "relatedIds": ["vid_001"]
+    }
+  ]
+}

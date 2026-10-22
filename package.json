@@ -1,0 +1,13 @@
+{
+  "name": "screensidekick",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fire TV AI companion app — hackathon build",
+  "scripts": {
+    "start": "node server-bedrock.js",
+    "start:bedrock": "node server-bedrock.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1138.0"
+  }
+}
